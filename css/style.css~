@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	background-image:url("http://localhost/images/background.jpg");
+}
+#pageContent{
+	margin: 0 auto;
+	width:100%;
+
+}
+.contentPane{
+
+	height:700px;
+background:rgba(143, 0, 2, 1);
+}
+.contentSpace{
+height:700px;
+}
+#navbar{
+top:0;
+	height:45px;
+	width:100%;
+	position:fixed;
+	background:rgba(253,245,230, .8);
+}
+.navItem{
+color:white;
+background:rgba(143, 0, 2, 1);
+height:30px;
+font-family: 'Roboto Slab', serif;
+display:inline;
+margin:0 10px 0 10px;
+padding:5px;
+border-radius:10px;
+cursor:pointer;
+}
+.navItem:hover{
+color:rgba(143, 0, 2, 1);
+background:white;
+border: 1px solid rgba(143, 0, 2, 1);
+}
+#navList{
+margin-top:12px;
+float:right;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
